@@ -1,0 +1,40 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "Búsqueda de Docentes";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="panel panel-primary panel-margin" style="margin-top: 80px;">
+                <div class="panel-heading">
+                    <h3 class="panel-tittle">Información Docentes</h3>
+                </div>
+                <div class="panel-body">
+                    <div id="dishType" style="width: 100%;">
+                        <ul>
+                            <li><a href="#titulos">Títulos</a></li>
+                            <li><a href="#evaluacion">Evaluación</a></li>
+                            <li><a href="#indicadores">Indicadores</a></li>
+                            <li><a href="#diagnostico">Diagnóstico</a></li>
+                        </ul>
+                        <div id="titulos">                            
+                            <div id="profesoresLista"></div>
+                            <div id="profesoresCapacitacion"></div>
+                        </div>
+                        <div id="evaluacion">
+                            <div id="evaluaciones"></div>
+                        </div>
+                        <div id="indicadores">
+                            <div id="indicadoresGeneral"></div>
+                        </div>
+                        <div id="diagnostico">
+                            <div id="diagnosticoGeneral"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+    </div>
+</div>

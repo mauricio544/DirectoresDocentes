@@ -1,0 +1,15 @@
+<configuration>
+	<system.web>
+		<compilation>
+			<assemblies>
+				<add assembly="Syncfusion.Linq.Base, Version=13.3400.0.18, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89"/>
+				<add assembly="Syncfusion.EJ, Version=13.3400.0.18, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89"/>
+				<add assembly="Syncfusion.EJ.Export, Version=13.3400.0.18, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89"/>
+</assemblies>
+		</compilation>
+		<pages>
+			<namespaces>
+			</namespaces>
+		</pages>
+	</system.web>
+</configuration>

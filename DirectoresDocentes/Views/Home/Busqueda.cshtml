@@ -1,0 +1,138 @@
+﻿@{
+    ViewBag.Title = "Busqueda";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="panel panel-default panel-margin">
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        <h3>Búsqueda de Estudiante<span class="glyphicon glyphicon-search pull-right"></span></h3>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    @*<form action="" class="margin-bottom">
+                            <fieldset>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-4 col-lg-4">
+                                        <div class="form-group">
+                                            <label for="" class="control-label">Código Estudiante</label>
+                                            <div class="input-group">
+                                                <input type="text" name="Codigo" class="form-control input-sm"><span class="input-group-addon glyphicon glyphicon-user input-sm"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-8 col-lg-8">
+                                        <label for="" class="control-label">Nombre Estudiante</label>
+                                        <div class="input-group">
+                                            <input type="text" name="Nombre" class="form-control input-sm"><span class="input-group-addon glyphicon glyphicon-user input-sm"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <label for="" class="control-label">
+                                            Periodo Ingreso
+                                        </label>
+                                        <div class="input-group">
+                                            <select name="PeriodoIngreso" id="" class="form-control input-sm">
+                                                <option value="">Seleccionar ...</option>
+                                            </select>
+                                            <div class="input-group-addon input-sm"><span class="fa fa-calendar-o"></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <label for="" class="control-label">
+                                            Periodo Egreso
+                                        </label>
+                                        <div class="input-group">
+                                            <select name="PeriodoEgreso" id="" class="form-control input-sm">
+                                                <option value="">Seleccionar ...</option>
+                                            </select>
+                                            <div class="input-group-addon input-sm"><span class="fa fa-calendar-o"></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4 col-lg-4">
+                                        <label for="" class="control-label">
+                                            Escuela Profesional
+                                        </label>
+                                        <div class="input-group">
+                                            <select name="EscuelaProfesional" id="" class="form-control input-sm">
+                                                <option value="">Seleccionar ...</option>
+                                            </select>
+                                            <div class="input-group-addon input-sm"><span class="glyphicon glyphicon-list-alt"></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row panel-margin">
+                                    <div class="col-sm-12 col-md-12 col-lg-12">
+                                        <button class="btn btn-primary btn-sm" id="btnBusqueda">Buscar <span class="glyphicon glyphicon-search"></span></button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>*@
+                    <script type="text/x-jsrender" id="columnTemplate">
+                        <img style="width: 120px; margin: 0 auto;" src="data:image/png;base64,{{:PERSONA_ROLES.PERSONAS.FOTO}}" alt="{{:PERSONA_ROLES.PERSONAS.NOMBRE_COMPLETO }}" class="thumbnail" />
+                    </script>
+                    <script type="text/x-jsrender" id="buttonTemplate">
+                        <a href="/Bachillerato/?codigo={{:CODIGO_ACAD}}" class="btn btn-primary btn-sm">Trámite Bachillerato <span class="fa fa-external-link"></span></a>
+                    </script>
+                    <div id="estudianteTablaBusqueda"></div>
+                    <div class="modal fade" id="practicaMaestro" tabindex="-1" role="dialog" aria-labelledby="practicaLabel">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="practicaLabel">Prácticas Pre Profesionales</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="practicaTable"></div>
+                                </div>
+                                <div class="modal-footer">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="creditosMaestro" tabindex="-1" role="dialog" aria-labelledby="creditosLabel">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="creditosLabel">Créditos Exta Curriculares</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="creditosTable"></div>
+                                </div>
+                                <div class="modal-footer">
+                                    <div id="page_practicas"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="startTramite" tabindex="-1" role="dialog" aria-labelledby="tramitesLabel">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                                        <span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="tramitesLabel">Prácticas y Créditos</h4>
+                                </div>
+                                <div class="modal-body">
+
+                                </div>
+                                <div class="modal-footer">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+    </div>
+</div>

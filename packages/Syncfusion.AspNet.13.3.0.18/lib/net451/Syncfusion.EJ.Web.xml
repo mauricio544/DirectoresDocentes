@@ -1,0 +1,2748 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.EJ.Web</name>
+    </assembly>
+    <members>
+        <member name="T:Syncfusion.JavaScript.Web.DataManager">
+            <summary>
+            Represents the DataManager UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.Barcode">
+            <summary>
+            Represents the Barcode UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.BarcodeDesigner">
+            <summary>
+            Gets a collection of Barcode values
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.BulletGraph">
+            <summary>
+            Represents the Button UI element.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.Web.BulletGraphDesigner.bg">
+            <summary>
+            Initializes the control designer and loads the specified component.
+            </summary>
+            <param name="component">The control being designed.</param>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.Chart">
+            <summary>
+            Represents the Chart UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.ChartDesigner">
+            <summary>
+            Gets a collection of Button values
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.Web.ChartDesigner.chrt">
+            <summary>
+            Initializes the control designer and loads the specified component.
+            </summary>
+            <param name="component">The control being designed.</param>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.CircularGauge">
+            <summary>
+            Represents the CircularGauge UI element.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.CircularGauge.PostBackEventHandler(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            handling properties state maintenance while postback.
+            </summary>
+            <param name="EventName">Name of the event.</param>
+            <param name="args">The arguments.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.CircularGauge.OnInit(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Web.UI.Control.Init" /> event.
+            </summary>
+            <param name="e">An <see cref="T:System.EventArgs" /> object that contains the event data.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.CircularGauge.OnLoad(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:Load"/> event.
+            </summary>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.CircularGauge.OnPreRender(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Web.UI.Control.PreRender" /> event.
+            </summary>
+            <param name="e">An <see cref="T:System.EventArgs" /> object that contains the event data.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.CircularGauge.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            Sends server control content to a provided <see cref="T:System.Web.UI.HtmlTextWriter" /> object, which writes the content to be rendered on the client.
+            </summary>
+            <param name="writer">The <see cref="T:System.Web.UI.HtmlTextWriter" /> object that receives the server control content.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.CircularGauge.UpdateServerModel(System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Updates the server model.
+            </summary>
+            <param name="ClientModel">The client model.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.CircularGauge.Render">
+            <summary>
+            Renders this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.Model">
+            <summary>
+            Gets or sets the model.
+            </summary>
+            <value>The model</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.AnimationSpeed">
+            <summary>
+            Gets or sets the animation speed.
+            </summary>
+            <value>
+            The animation speed.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.Minimum">
+            <summary>
+            Gets or sets the minimum scale value.
+            </summary>
+            <value>
+            The minimum.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.Maximum">
+            <summary>
+            Gets or sets the maximum scale value.
+            </summary>
+            <value>
+            The maximum.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.Value">
+            <summary>
+            Gets or sets the pointer value.
+            </summary>
+            <value>
+            The value.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.Radius">
+            <summary>
+            Gets or sets the radius.
+            </summary>
+            <value>
+            The radius.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.DistanceFromCorner">
+            <summary>
+            Gets or sets the distance from corner.
+            </summary>
+            <value>
+            The distance from corner.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.Width">
+            <summary>
+            gets or sets of the circular gauge width.
+            </summary>
+            <value>
+            The width.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.Height">
+            <summary>
+            gets or sets of the circular gauge height.
+            </summary>
+            <value>
+            The height.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.Theme">
+            <summary>
+            Gets or sets the theme.
+            </summary>
+            <value>
+            The theme.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.OuterCustomLabelPosition">
+            <summary>
+            Gets or sets the outer custom label position.
+            </summary>
+            <value>
+            The outer custom label position.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.GaugePosition">
+            <summary>
+            Gets or sets the gauge position.
+            </summary>
+            <value>
+            The gauge position.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.RangeZOrder">
+            <summary>
+            Gets or sets the range rendering position.
+            </summary>
+            <value>
+            The range position.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.ReadOnly">
+            <summary>
+            Gets or sets a value indicating whether [read only].
+            </summary>
+            <value>
+              <c>true</c> if [read only]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.IsRadialGradient">
+            <summary>
+            Gets or sets a value indicating whether this instance is radial gradient.
+            </summary>
+            <value>
+            <c>true</c> if this instance is radial gradient; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.EnableAnimation">
+            <summary>
+            Gets or sets a value indicating whether [enable animation].
+            </summary>
+            <value>
+              <c>true</c> if [enable animation]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.EnableResize">
+            <summary>
+            Gets or sets a value indicating whether [enable resize].
+            </summary>
+            <value>
+              <c>true</c> if [enable resize]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.BackgroundColor">
+            <summary>
+            Gets or sets the color of the background.
+            </summary>
+            <value>
+            The color of the background.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.InteriorGradient">
+            <summary>
+            Gets the interior gradient.
+            </summary>
+            <value>
+            The interior gradient.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.Scales">
+            <summary>
+            Gets the scales.
+            </summary>
+            <value>
+            The scales.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.Frame">
+            <summary>
+            Gets the frame.
+            </summary>
+            <value>
+            The frame.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.Tooltip">
+            <summary>
+            Gets the tooltip.
+            </summary>
+            <value>
+            The tooltip.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.DrawTicks">
+            <summary>
+            Gets or sets the draw ticks event.
+            </summary>
+            <value>
+            The draw ticks.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.DrawLabels">
+            <summary>
+            Gets or sets the draw labels.
+            </summary>
+            <value>
+            The draw labels.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.DrawPointers">
+            <summary>
+            Gets or sets the draw pointers.
+            </summary>
+            <value>
+            The draw pointers.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.DrawRange">
+            <summary>
+            Gets or sets the draw range.
+            </summary>
+            <value>
+            The draw range.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.Create">
+            <summary>
+            Gets or sets the create.
+            </summary>
+            <value>
+             The create.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.Destroy">
+            <summary>
+            Gets or sets the destroy.
+            </summary>
+            <value>
+             The destroy.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.DrawCustomLabel">
+            <summary>
+            Gets or sets the draw custom label <see cref="T:Syncfusion.JavaScript.Web.CircularGauge"/> occurs the custom label is being drawn.
+            </summary>
+            <value>
+            The draw custom label.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.DrawIndicators">
+            <summary>
+            Gets or sets the draw indicators <see cref="T:Syncfusion.JavaScript.Web.CircularGauge"/> occurs the indicators are being drawn.
+            </summary>
+            <value>
+            The draw indicators.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.RenderComplete">
+            <summary>
+            Gets or sets the render complete <see cref="T:Syncfusion.JavaScript.Web.CircularGauge"/> occurs the gauge is rendering completed.
+            </summary>
+            <value>
+            The render complete.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.DrawPointerCap">
+            <summary>
+            Gets or sets the draw pointer cap <see cref="T:Syncfusion.JavaScript.Web.CircularGauge"/> occurs the pointer cap is being drawn.
+            </summary>
+            <value>
+            The draw pointer cap.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.MouseClick">
+            <summary>
+            Gets or sets the mouse click <see cref="T:Syncfusion.JavaScript.Web.CircularGauge"/> occurs the mouse button is clicked.
+            </summary>
+            <value>
+            The mouse click.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.MouseClickMove">
+            <summary>
+            Gets or sets the mouse click move <see cref="T:Syncfusion.JavaScript.Web.CircularGauge"/> occurs when clicking and dragging the mouse pointer.
+            </summary>
+            <value>
+            The mouse click move.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.MouseClickUp">
+            <summary>
+            Gets or sets the mouse click up <see cref="T:Syncfusion.JavaScript.Web.CircularGauge"/> occurs the mouse click is released.
+            </summary>
+            <value>
+            The mouse click up.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.Load">
+            <summary>
+            Gets or sets the load <see cref="T:Syncfusion.JavaScript.Web.CircularGauge"/> occurs the gauge start to load.
+            </summary>
+            <value>
+            The load.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGauge.ServerEvents">
+            <summary>
+            Gets the server events.
+            </summary>
+            <value>
+            The server events.
+            </value>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.CircularGaugeCreater">
+            <summary>
+            Class for circular gauge creater control.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.CircularGaugeCreater.#ctor(Syncfusion.JavaScript.Web.CircularGauge)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Web.CircularGaugeCreater"/> class.
+            </summary>
+            <param name="circularGaugeModel">The circular gauge model.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.CircularGaugeCreater.CreateContainer(System.String)">
+            <summary>
+            Creates the container.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGaugeCreater.TagName">
+            <summary>
+            Gets the name of the tag.
+            </summary>
+            <value>
+            The name of the tag.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGaugeCreater.PluginName">
+            <summary>
+            Gets the name of the plugin.
+            </summary>
+            <value>
+            The name of the plugin.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGaugeCreater.Model">
+            <summary>
+            Gets the model.
+            </summary>
+            <value>
+            The model.
+            </value>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.CircularGaugeDesigner">
+            <summary>
+            Class for circular gauge designer.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.CircularGaugeDesigner.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Web.CircularGaugeDesigner"/> class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.CircularGaugeDesigner.Initialize(System.ComponentModel.IComponent)">
+            <summary>
+            Initializes the control designer and loads the specified component.
+            </summary>
+            <param name="component">The control being designed.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.CircularGaugeDesigner.GetControlString">
+            <summary>
+            Gets the control string.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGaugeDesigner.circularGauge">
+            <summary>
+            Gets the circular gauge.
+            </summary>
+            <value>
+            The circular gauge.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGaugeDesigner.RequiresImageConvertion">
+            <summary>
+            Gets a value indicating whether [requires image convertion].
+            </summary>
+            <value>
+            <c>true</c> if [requires image convertion]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGaugeDesigner.ControlID">
+            <summary>
+            Gets the control identifier.
+            </summary>
+            <value>
+            The control identifier.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGaugeDesigner.ActionLists">
+            <summary>
+            Gets the action list collection for the control designer.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.CircularGaugeDesignerActionList">
+            <summary>
+            Internal class for circular gauge designer action list.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.CircularGaugeDesignerActionList.#ctor(Syncfusion.JavaScript.Web.CircularGaugeDesigner)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Web.CircularGaugeDesignerActionList"/> class.
+            </summary>
+            <param name="designer">The designer.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.CircularGaugeDesignerActionList.SetProperty(System.String,System.Object,System.Object)">
+            <summary>
+            Sets the property.
+            </summary>
+            <param name="propertyName">Name of the property.</param>
+            <param name="component">The component.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.CircularGaugeDesignerActionList.GetSortedActionItems">
+            <summary>
+            Returns the collection of <see cref="T:System.ComponentModel.Design.DesignerActionItem" /> objects contained in the list.
+            </summary>
+            <returns>
+            A <see cref="T:System.ComponentModel.Design.DesignerActionItem" /> array that contains the items in this list.
+            </returns>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.CircularGaugeDesignerActionList.Themes">
+            <summary>
+            Gets or sets the themes.
+            </summary>
+            <value>
+            The themes.
+            </value>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.DigitalGauge">
+            <summary>
+            Represents the DigitalGauge UI element.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.DigitalGauge.OnInit(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Web.UI.Control.Init" /> event.
+            </summary>
+            <param name="e">An <see cref="T:System.EventArgs" /> object that contains the event data.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.DigitalGauge.OnLoad(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:Load"/> event.
+            </summary>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.DigitalGauge.OnPreRender(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Web.UI.Control.PreRender" /> event.
+            </summary>
+            <param name="e">An <see cref="T:System.EventArgs" /> object that contains the event data.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.DigitalGauge.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            Sends server control content to a provided <see cref="T:System.Web.UI.HtmlTextWriter" /> object, which writes the content to be rendered on the client.
+            </summary>
+            <param name="writer">The <see cref="T:System.Web.UI.HtmlTextWriter" /> object that receives the server control content.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.DigitalGauge.Render">
+            <summary>
+            Renders this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DigitalGauge.Model">
+            <summary>
+            Gets or sets the model.
+            </summary>
+            <value>The model</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DigitalGauge.EnableResize">
+            <summary>
+            Gets or sets a value indicating whether [enable resize].
+            </summary>
+            <value>
+              <c>true</c> if [enable resize]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DigitalGauge.Width">
+            <summary>
+            gets or sets of the digital gauge width.
+            </summary>
+            <value>
+            The width.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DigitalGauge.Height">
+            <summary>
+            gets or sets of the digital gauge height.
+            </summary>
+            <value>
+            The height.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DigitalGauge.Value">
+            <summary>
+            Gets or sets the value.
+            </summary>
+            <value>
+            The value.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DigitalGauge.Themes">
+            <summary>
+            Gets or sets the themes.
+            </summary>
+            <value>
+            The themes.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DigitalGauge.Create">
+            <summary>
+            Gets or sets the create.
+            </summary>
+            <value>
+            The create.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DigitalGauge.Init">
+            <summary>
+            Gets or sets the initialize <see cref="T:Syncfusion.JavaScript.Web.DigitalGauge"/> occurs the gauge is initialized.
+            </summary>
+            <value>
+            The initialize.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DigitalGauge.Load">
+            <summary>
+            Gets or sets the load <see cref="T:Syncfusion.JavaScript.Web.DigitalGauge"/> occurs the gauge is start to load.
+            </summary>
+            <value>
+            The load.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DigitalGauge.RenderComplete">
+            <summary>
+            Gets or sets the render complete <see cref="T:Syncfusion.JavaScript.Web.DigitalGauge"/> occurs the gauge render is completed.
+            </summary>
+            <value>
+            The render complete.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DigitalGauge.Destroy">
+            <summary>
+            Gets or sets the destroy.
+            </summary>
+            <value>
+            The destroy.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DigitalGauge.Items">
+            <summary>
+            Gets the items.
+            </summary>
+            <value>
+            The items.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DigitalGauge.Frame">
+            <summary>
+            Gets the frame.
+            </summary>
+            <value>The frame</value>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.DigitalGaugeCreater">
+            <summary>
+            Class for digital gauge creater control.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.DigitalGaugeCreater.#ctor(Syncfusion.JavaScript.Web.DigitalGauge)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Web.DigitalGaugeCreater"/> class.
+            </summary>
+            <param name="digitalGaugeModel">The digital gauge model.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.DigitalGaugeCreater.CreateContainer(System.String)">
+            <summary>
+            Creates the container.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DigitalGaugeCreater.TagName">
+            <summary>
+            Gets the name of the tag.
+            </summary>
+            <value>
+            The name of the tag.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DigitalGaugeCreater.PluginName">
+            <summary>
+            Gets the name of the plugin.
+            </summary>
+            <value>
+            The name of the plugin.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DigitalGaugeCreater.Model">
+            <summary>
+            Gets the model.
+            </summary>
+            <value>
+            The model.
+            </value>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.DigitalGaugeDesigner">
+            <summary>
+            Class for digital gauge designer.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.DigitalGaugeDesigner.Initialize(System.ComponentModel.IComponent)">
+            <summary>
+            Initializes the control designer and loads the specified component.
+            </summary>
+            <param name="component">The control being designed.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.DigitalGaugeDesigner.GetControlString">
+            <summary>
+            Gets the control string.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DigitalGaugeDesigner.digitalGauge">
+            <summary>
+            Gets the digital gauge.
+            </summary>
+            <value>
+            The digital gauge.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DigitalGaugeDesigner.RequiresImageConvertion">
+            <summary>
+            Gets a value indicating whether [requires image convertion].
+            </summary>
+            <value>
+            <c>true</c> if [requires image convertion]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DigitalGaugeDesigner.ControlID">
+            <summary>
+            Gets the control identifier.
+            </summary>
+            <value>
+            The control identifier.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DigitalGaugeDesigner.ActionLists">
+            <summary>
+            Gets the action list collection for the control designer.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.DigitalGaugeDesignerActionList">
+            <summary>
+            Internal class for digital gauge designer action list.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.DigitalGaugeDesignerActionList.#ctor(Syncfusion.JavaScript.Web.DigitalGaugeDesigner)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Web.DigitalGaugeDesignerActionList"/> class to indicates the designer.
+            </summary>
+            <param name="designer">The designer.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.DigitalGaugeDesignerActionList.SetProperty(System.String,System.Object,System.Object)">
+            <summary>
+            Sets the property.
+            </summary>
+            <param name="propertyName">Name of the property.</param>
+            <param name="component">The component.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.DigitalGaugeDesignerActionList.GetSortedActionItems">
+            <summary>
+            Returns the collection of <see cref="T:System.ComponentModel.Design.DesignerActionItem" /> objects contained in the list.
+            </summary>
+            <returns>
+            A <see cref="T:System.ComponentModel.Design.DesignerActionItem" /> array that contains the items in this list.
+            </returns>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DigitalGaugeDesignerActionList.Themes">
+            <summary>
+            Gets or sets the themes.
+            </summary>
+            <value>
+            The themes.
+            </value>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.CircularGaugeEventArgs">
+            <summary>
+            Class for circular gauge event args.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.CircularGaugeEventArgs.#ctor(System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Web.CircularGaugeEventArgs"/> class to indicate the arguments.
+            </summary>
+            <param name="args">The arguments.</param>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.LinearGauge">
+            <summary>
+            Represents the LinearGauge UI element.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.LinearGauge.PostBackEventHandler(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Handling properties state maintenance while postback.
+            </summary>
+            <param name="EventName">Name of the event.</param>
+            <param name="args">The arguments.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.LinearGauge.OnInit(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Web.UI.Control.Init" /> event.
+            </summary>
+            <param name="e">An <see cref="T:System.EventArgs" /> object that contains the event data.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.LinearGauge.OnLoad(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:Load"/> event.
+            </summary>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.LinearGauge.OnPreRender(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:PreRender"/> event.
+            </summary>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.LinearGauge.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            Sends server control content to a provided <see cref="T:System.Web.UI.HtmlTextWriter" /> object, which writes the content to be rendered on the client.
+            </summary>
+            <param name="writer">The <see cref="T:System.Web.UI.HtmlTextWriter" /> object that receives the server control content.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.LinearGauge.Render">
+            <summary>
+            Renders this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.LinearGauge.UpdateServerModel(System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Updates the server model.
+            </summary>
+            <param name="ClientModel">The client model.</param>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.ReadOnly">
+            <summary>
+            Gets or sets a value indicating whether [read only].
+            </summary>
+            <value>
+              <c>true</c> if [read only]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.EnableAnimation">
+            <summary>
+            Gets or sets a value indicating whether [enable animation].
+            </summary>
+            <value>
+              <c>true</c> if [enable animation]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.EnableMarkerPointerAnimation">
+            <summary>
+            Gets or sets a value indicating whether [enable marker pointer animation].
+            </summary>
+            <value>
+            <c>true</c> if [enable marker pointer animation]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.Minimum">
+            <summary>
+            Gets or sets the minimum scale value.
+            </summary>
+            <value>
+            The minimum.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.Maximum">
+            <summary>
+            Gets or sets the maximum scale value.
+            </summary>
+            <value>
+            The maximum.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.Value">
+            <summary>
+            Gets or sets the pointer value.
+            </summary>
+            <value>
+            The value.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.EnableResize">
+            <summary>
+            Gets or sets a value indicating whether [enable resize].
+            </summary>
+            <value>
+              <c>true</c> if [enable resize]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.Themes">
+            <summary>
+            Gets or sets the themes.
+            </summary>
+            <value>
+            The themes.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.Orientation">
+            <summary>
+            Gets or sets the orientation.
+            </summary>
+            <value>
+            The orientation.
+            </value>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:Syncfusion.JavaScript.Web.LinearGauge.OuterCustomLabelPosition" -->
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.BackgroundColor">
+            <summary>
+            Gets or sets the color of the background.
+            </summary>
+            <value>
+            The color of the background.
+            </value>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:Syncfusion.JavaScript.Web.LinearGauge.BorderColor" -->
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.LabelColor">
+            <summary>
+            Gets or sets the color of the label.
+            </summary>
+            <value>
+            The color of the label.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.TickColor">
+            <summary>
+            Gets or sets the color of the tick.
+            </summary>
+            <value>
+            The color of the tick.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.Width">
+            <summary>
+            gets or sets of the linear gauge width
+            </summary>
+            <value>
+            The width.
+            </value>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:Syncfusion.JavaScript.Web.LinearGauge.Height" -->
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.AnimationSpeed">
+            <summary>
+            Gets or sets the animation speed.
+            </summary>
+            <value>
+            The animation speed.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.Create">
+            <summary>
+            Gets or sets the create.
+            </summary>
+            <value>
+            The create.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.DrawTicks">
+            <summary>
+            Gets or sets the draw ticks.
+            </summary>
+            <value>
+            The draw ticks.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.DrawLabels">
+            <summary>
+            Gets or sets the draw labels.
+            </summary>
+            <value>
+            The draw labels.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.DrawBarPointers">
+            <summary>
+            Gets or sets the draw bar pointers <see cref="T:Syncfusion.JavaScript.Web.LinearGauge"/> occurs the bar pointer are being drawn.
+            </summary>
+            <value>
+            The draw bar pointers.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.DrawMarkerPointers">
+            <summary>
+            Gets or sets the draw marker pointers <see cref="T:Syncfusion.JavaScript.Web.LinearGauge"/> occurs the marker are being drawn.
+            </summary>
+            <value>
+            The draw marker pointers.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.DrawRange">
+            <summary>
+            Gets or sets the draw range <see cref="T:Syncfusion.JavaScript.Web.LinearGauge"/> occurs the range are being drawn.
+            </summary>
+            <value>
+            The draw range.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.DrawCustomLabel">
+            <summary>
+            Gets or sets the draw custom label <see cref="T:Syncfusion.JavaScript.Web.LinearGauge"/> occurs the custom label are being drawn.
+            </summary>
+            <value>
+            The draw custom label.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.DrawIndicators">
+            <summary>
+            Gets or sets the draw indicators <see cref="T:Syncfusion.JavaScript.Web.LinearGauge"/> occurs the indicators are being drawn.
+            </summary>
+            <value>
+            The draw indicators.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.Load">
+            <summary>
+            Gets or sets the load <see cref="T:Syncfusion.JavaScript.Web.LinearGauge"/> occurs the gauge start to load.
+            </summary>
+            <value>
+            The load.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.Init">
+            <summary>
+            Gets or sets the initialize <see cref="T:Syncfusion.JavaScript.Web.LinearGauge"/> occurs the gauge is initialized.
+            </summary>
+            <value>
+            The initialize.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.RenderComplete">
+            <summary>
+            Gets or sets the render complete <see cref="T:Syncfusion.JavaScript.Web.LinearGauge"/> occurs the rendering of the gauge completed.
+            </summary>
+            <value>
+            The render complete.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.Destroy">
+            <summary>
+            Gets or sets the destroy.
+            </summary>
+            <value>
+            The destroy.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.Scales">
+            <summary>
+            Gets the scales.
+            </summary>
+            <value>
+            The scales.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.Frame">
+            <summary>
+            Gets the frame.
+            </summary>
+            <value>
+            The frame.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.Tooltip">
+            <summary>
+            Gets the tooltip.
+            </summary>
+            <value>
+            The tooltip.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.PointerGradient1">
+            <summary>
+            Gets the pointer gradient1.
+            </summary>
+            <value>
+            The pointer gradient1.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.PointerGradient2">
+            <summary>
+            Gets the pointer gradient2.
+            </summary>
+            <value>
+            The pointer gradient2.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGauge.ServerEvents">
+            <summary>
+            Gets the server events.
+            </summary>
+            <value>
+            The server events.
+            </value>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.LinearGauge.LinearGaugeEventHandler">
+            <summary>
+            Linear gauge server side event handler.
+            </summary>
+            <param name="sender">The name of sender</param>
+            <param name="e">The event argument</param>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.LinearGaugeCreater">
+            <summary>
+            Class for linear gauge creater control.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.LinearGaugeCreater.#ctor(Syncfusion.JavaScript.Web.LinearGauge)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Web.LinearGaugeCreater"/> class to indicate the linear model.
+            </summary>
+            <param name="linearGaugeModel">The linear gauge model.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.LinearGaugeCreater.CreateContainer(System.String)">
+            <summary>
+            Creates the container.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGaugeCreater.TagName">
+            <summary>
+            Gets the name of the tag.
+            </summary>
+            <value>
+            The name of the tag.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGaugeCreater.PluginName">
+            <summary>
+            Gets the name of the plugin.
+            </summary>
+            <value>
+            The name of the plugin.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGaugeCreater.Model">
+            <summary>
+            Gets the model.
+            </summary>
+            <value>
+            The model.
+            </value>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.LinearGaugeDesigner">
+            <summary>
+            Class for linear gauge designer.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.LinearGaugeDesigner.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Web.LinearGaugeDesigner"/> class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.LinearGaugeDesigner.Initialize(System.ComponentModel.IComponent)">
+            <summary>
+            Initializes the control designer and loads the specified component.
+            </summary>
+            <param name="component">The control being designed.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.LinearGaugeDesigner.GetControlString">
+            <summary>
+            Gets the control string.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGaugeDesigner.linearGauge">
+            <summary>
+            Gets the linear gauge.
+            </summary>
+            <value>
+            The linear gauge.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGaugeDesigner.RequiresImageConvertion">
+            <summary>
+            Gets a value indicating whether [requires image convertion].
+            </summary>
+            <value>
+            <c>true</c> if [requires image convertion]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGaugeDesigner.ControlID">
+            <summary>
+            Gets the control identifier.
+            </summary>
+            <value>
+            The control identifier.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGaugeDesigner.ActionLists">
+            <summary>
+            Gets the action list collection for the control designer.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.LinearGaugeDesignerActionList">
+            <summary>
+            Internal class for linear gauge designer action list.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.LinearGaugeDesignerActionList.#ctor(Syncfusion.JavaScript.Web.LinearGaugeDesigner)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Web.LinearGaugeDesignerActionList"/> class to indicate the linear designer.
+            </summary>
+            <param name="designer">The designer.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.LinearGaugeDesignerActionList.SetProperty(System.String,System.Object,System.Object)">
+            <summary>
+            Sets the property.
+            </summary>
+            <param name="propertyName">Name of the property.</param>
+            <param name="component">The component.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.LinearGaugeDesignerActionList.GetSortedActionItems">
+            <summary>
+            Returns the collection of <see cref="T:System.ComponentModel.Design.DesignerActionItem" /> objects contained in the list.
+            </summary>
+            <returns>
+            A <see cref="T:System.ComponentModel.Design.DesignerActionItem" /> array that contains the items in this list.
+            </returns>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.LinearGaugeDesignerActionList.Themes">
+            <summary>
+            Gets or sets the themes.
+            </summary>
+            <value>
+            The themes.
+            </value>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.LinearGaugeEventArgs">
+            <summary>
+            Class for linear gauge event args.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.LinearGaugeEventArgs.#ctor(System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Web.LinearGaugeEventArgs"/> class.
+            </summary>
+            <param name="args">The arguments.</param>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.Map">
+            <summary>
+            Represents the Map UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.MapDesigner">
+            <summary>
+            Gets a collection of Map values
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.RangeNavigator">
+            <summary>
+            Represents the Chart UI element.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.Web.RangeNavigatorDesigner.range">
+            <summary>
+            Initializes the control designer and loads the specified component.
+            </summary>
+            <param name="component">The control being designed.</param>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.Diagram">
+            <summary>
+            Represents the Diagram UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.SymbolPalette">
+            <summary>
+            Represents the Diagram UI element.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.GradientStop.Color">
+            <summary>
+            Gets or sets the stop color.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.GradientStop.Offset">
+            <summary>
+            Gets or sets the stop offset.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DiagramPalette.Expanded">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="!:Palette"/> is expanded.
+            </summary>
+            <value>
+              <c>true</c> if expanded; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DiagramPalette.ID">
+            <summary>
+            Gets or sets the id of the palette.
+            </summary>
+            <value>
+            The palette name.
+            </value>       
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DiagramPalette.Name">
+            <summary>
+            Gets or sets the name of the palette.
+            </summary>
+            <value>
+            The palette name.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DiagramPalette.Items">
+            <summary>
+            Gets the palette children.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DiagramPalette.ChildCount">
+            <summary>
+            Gets the palette child count.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.DiagramPalette.Capacity">
+            <summary>
+            Gets or sets the capacity of palette.
+            </summary>
+            <value>
+            The capacity.
+            </value>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.Overview">
+            <summary>
+            Represents the Diagram UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.Accordion">
+            <summary>
+            Represents the Accordion UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.Button">
+            <summary>
+            Represents the Button UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.ButtonDesigner">
+            <summary>
+            Gets a collection of Button values
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.Captcha">
+            <summary>
+            Represents the Button UI element.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.Captcha.RenderCaptchaImage">
+            <summary>
+            Renders the captcha image
+            </summary>      
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.Captcha.Generate(System.Int32,System.String,System.Int32)">
+            <summary>
+            Generates Random Text
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.CheckBox">
+            <summary>
+            Represents the CheckBox UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.CheckBoxDesigner">
+            <summary>
+            Gets a collection of RadioButton values
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.ColorPicker">
+            <summary>
+            Represents the ColorPicker UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.ColorPickerDesigner">
+            <summary>
+            Gets a collection of DatePicker values
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.DatePicker">
+            <summary>
+            Represents the Datepicker UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.DatePickerDesigner">
+            <summary>
+            Gets a collection of DatePicker values
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.DateTimePicker">
+            <summary>
+            Represents the DateTimePicker UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.Dialog">
+            <summary>
+            Represents the Dialog UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.DropDownListDesigner">
+            <summary>
+            Gets a collection of DropDownList values
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.Gantt">
+            <summary>
+            Represents the Gantt UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.ListBoxDesigner">
+            <summary>
+            Gets a collection of ListBox values
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ListViewBinding.NavigateUrl">
+            <summary>
+            Gets or sets the navigate URL.
+            </summary>
+            <value>
+            The navigate URL.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ListViewBinding.Href">
+            <summary>
+            Gets or sets the href.
+            </summary>
+            <value>
+            The href.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ListViewBinding.EnableAjax">
+            <summary>
+            Gets or sets the enable ajax.
+            </summary>
+            <value>
+            The enable ajax.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ListViewBinding.PreventSelection">
+            <summary>
+            Gets or sets a value indicating whether [prevent selection].
+            </summary>
+            <value>
+              <c>true</c> if [prevent selection]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ListViewBinding.PersistSelection">
+            <summary>
+            Gets or sets a value indicating whether [persist selection].
+            </summary>
+            <value>
+              <c>true</c> if [persist selection]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ListViewBinding.Text">
+            <summary>
+            Gets or sets the text.
+            </summary>
+            <value>
+            The text.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ListViewBinding.EnableCheckMark">
+            <summary>
+            Gets or sets a value indicating whether [enable check mark].
+            </summary>
+            <value>
+              <c>true</c> if [enable check mark]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ListViewBinding.Checked">
+            <summary>
+            Gets or sets the checked.
+            </summary>
+            <value>
+            The checked.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ListViewBinding.PrimaryKey">
+            <summary>
+            Gets or sets the primary key.
+            </summary>
+            <value>
+            The primary key.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ListViewBinding.ParentPrimaryKey">
+            <summary>
+            parentPrimaryKey
+            </summary>
+            <value>
+            parentPrimaryKey
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ListViewBinding.ImageClass">
+            <summary>
+            Gets or sets the image class.
+            </summary>
+            <value>
+            The image class.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ListViewBinding.ImageUrl">
+            <summary>
+            Gets or sets the image URL.
+            </summary>
+            <value>
+            The image URL.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ListViewBinding.ChildHeaderTitle">
+            <summary>
+            Gets or sets the child title.
+            </summary>
+            <value>
+            The child title.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ListViewBinding.ChildHeaderBackButtonText">
+            <summary>
+            Gets or sets the child button text.
+            </summary>
+            <value>
+            The child button text.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ListViewBinding.RenderTemplate">
+            <summary>
+            Gets or sets a value indicating whether [render template].
+            </summary>
+            <value>
+              <c>true</c> if [render template]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ListViewBinding.TemplateId">
+            <summary>
+            Gets or sets the template identifier.
+            </summary>
+            <value>
+            The template identifier.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ListViewBinding.TouchStart">
+            <summary>
+            Gets or sets the touch start.
+            </summary>
+            <value>
+            The touch start.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ListViewBinding.TouchEnd">
+            <summary>
+            Gets or sets the touch end.
+            </summary>
+            <value>
+            The touch end.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ListViewBinding.Attributes">
+            <summary>
+            Gets or sets the HTML attributes.
+            </summary>
+            <value>
+            The HTML attributes.
+            </value>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.MaskEdit">
+            <summary>
+            Represents the MaskEdit UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.MaskEditDesigner">
+            <summary>
+            Gets a collection of DatePicker values
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.NavigationDrawer">
+            <summary>
+            Represents the NavigationDrawer UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.ProgressBar">
+            <summary>
+            Represents the ProgressBar UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.ProgressBarDesigner">
+            <summary>
+            Gets a collection of Button values
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.RadialMenu">
+            <summary>
+            Represents the RadialMenu UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.RadioButton">
+            <summary>
+            Represents the Radio Button UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.RadioButtonDesigner">
+            <summary>
+            Gets a collection of RadioButton values
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.ReportViewer">
+            <summary>
+            Class ReportViewer.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.ReportViewer.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            Renders the control to the specified HTML writer.
+            </summary>
+            <param name="writer">The <see cref="T:System.Web.UI.HtmlTextWriter" /> object that receives the control content.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.ReportViewer.Render">
+            <summary>
+            Renders the instance of ReportViewer.
+            </summary>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.ReportViewer.GetDependentFiles">
+            <summary>
+            Adding dependent scripts.
+            </summary>
+            <returns>Script files.</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.ReportViewer.LoadViewState(System.Object)">
+            <summary>
+            Loads the state of the view state.
+            </summary>
+            <param name="state">The state.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.ReportViewer.SaveViewState">
+            <summary>
+            Saves any view-state changes that have occurred since the time the page was posted back to the server.
+            </summary>
+            <returns>The control's current view state. If there is no view state associated with the control, this method returns null.</returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.ReportViewer.UpdateServerModel(System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Updates the server model.
+            </summary>
+            <param name="ClientModel">The client model.</param>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.Model">
+            <summary>
+            Gets or sets the ReportViewer model.
+            </summary>
+            <value>The model.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.height">
+            <summary>
+            Gets or sets the height.
+            </summary>
+            <value>The height.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.width">
+            <summary>
+            Gets or sets the width.
+            </summary>
+            <value>The width.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.DataSources">
+            <summary>
+            Gets or sets the list of data sources for the RDLC report.
+            </summary>
+            <value>The data sources.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.Parameters">
+            <summary>
+            Gets or sets the list of parameters associated with the report.
+            </summary>
+            <value>The parameters.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.ToolbarSettings">
+            <summary>
+            Specifies the toolbar settings.
+            </summary>
+            <value>The toolbar settings.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.PageSettings">
+            <summary>
+            Specifies the toolbar settings.
+            </summary>
+            <value>The toolbar settings.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.ExportSettings">
+            <summary>
+            Specifies the export settings.
+            </summary>
+            <value>The export settings.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.ReportServiceUrl">
+            <summary>
+            Specifies the report Web API service url.
+            </summary>
+            <value>The report service URL.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.ReportPath">
+            <summary>
+            Gets or sets the path of the report file.
+            </summary>
+            <value>The report path.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.ReportServerUrl">
+            <summary>
+            Gets or sets the reports server URL.
+            </summary>
+            <value>The report server URL.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.RenderMode">
+            <summary>
+            Specifies the render layout.
+            </summary>
+            <value>The processing mode.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.ProcessingMode">
+            <summary>
+            Specifies the processing mode of the report.
+            </summary>
+            <value>The processing mode.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.ZoomFactor">
+            <summary>
+            Gets or sets the zoom factor for report viewer.
+            </summary>
+            <value>The zoom factor.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.Locale">
+            <summary>
+            Specifies the locale for report viewer.
+            </summary>
+            <value>The locale.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.OnClientReportLoaded">
+            <summary>
+            Fires when the report is loaded.If you want to perform any operation after the successful loading of report, you can make use of the reportLoaded event.
+            </summary>
+            <value>The on client report loaded.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.OnClientReportError">
+            <summary>
+            Fires when any error occurred while rendering the report.If you want to perform any operation when an error occurs in the report, you can make use of the reportError event.
+            </summary>
+            <value>The on client report error.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.OnClientRenderingBegin">
+            <summary>
+            Fires before report rendering is completed.If you want to perform any operation before the rendering of report,you can make use of the renderingBegin event.
+            </summary>
+            <value>The on client rendering begin.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.OnClientRenderingComplete">
+            <summary>
+            Fires after report rendering completed.If you want to perform any operation after the rendering of report,you can make use of this renderingComplete event.
+            </summary>
+            <value>The on client rendering complete.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.OnClientDrillThrough">
+            <summary>
+            Fires during drill through action done in report.If you want to perform any operation when a drill through action is performed, you can make use of the drillThrough event.
+            </summary>
+            <value>The on client drill through.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.OnClientViewReportClick">
+            <summary>
+            Fires when click the ViewReport.If you want to modify the current parameter collection while viewReport click, you can make use of the viewReportClick event.
+            </summary>
+            <value>The on client view Report Click.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewer.OnClientDestroy">
+            <summary>
+            Fires when the report viewer is destroyed successfully.If you want to perform any operation after destroying the reportviewer control,you can make use of the destroy event.
+            </summary>
+            <value>The on client destroy.</value>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.ReportViewerCreator">
+            <summary>
+            Class ReportViewerCreator.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.ReportViewerCreator.#ctor(Syncfusion.JavaScript.Web.ReportViewer)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Web.ReportViewerCreator"/> class.
+            </summary>
+            <param name="reportModel">The report model.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.ReportViewerCreator.CreateContainer(System.String)">
+            <summary>
+            Creates the container.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+            <returns>HtmlString.</returns>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewerCreator.Width">
+            <summary>
+            Gets or sets the width.
+            </summary>
+            <value>The width.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewerCreator.Height">
+            <summary>
+            Gets or sets the height.
+            </summary>
+            <value>The height.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewerCreator.TagName">
+            <summary>
+            Gets the name of the tag.
+            </summary>
+            <value>The name of the tag.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewerCreator.PluginName">
+            <summary>
+            Gets the name of the plugin.
+            </summary>
+            <value>The name of the plugin.</value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ReportViewerCreator.Model">
+            <summary>
+            Gets the ReportViewer model.
+            </summary>
+            <value>The model.</value>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.ReportViewerDesigner">
+            <summary>
+            Gets a collection of ReportViewer values
+            </summary>
+        </member>
+        <member name="F:Syncfusion.JavaScript.Web.ReportViewerDesigner.reportviewer">
+            <summary>
+            Initializes the control designer and loads the specified component.
+            </summary>
+            <param name="component">The control being designed.</param>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.Ribbon">
+            <summary>
+            Represents the Ribbon UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.RTE">
+            <summary>
+            Represents the RTE UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.Schedule">
+            <summary>
+            Class for schedule control
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.Schedule.PostBackEventHandler(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Schedule handling properties state maintenance while postback.
+            </summary>
+            <param name="EventName">The EventName</param>
+            <param name="args">The args</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.Schedule.UpdateServerModel(System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            The schedule maintains the server state.
+            </summary>
+            <param name="ClientModel">The ClientModel</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.Schedule.FetchData(System.Collections.IEnumerable)">
+            <summary>
+            Fetch the data while rendering the schedule.
+            </summary>
+            <param name="data"></param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.Schedule.OnInit(System.EventArgs)">
+            <summary>
+            schedule severside event <see cref="T:Syncfusion.JavaScript.Web.Schedule"/>occurs the schedule is rendering.
+            </summary>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.Schedule.OnLoad(System.EventArgs)">
+            <summary>
+            schedule severside event <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs the schedule is start to load.
+            </summary>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.Schedule.OnPreRender(System.EventArgs)">
+            <summary>
+            schedule severside event <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs the schedule is pre rendering.
+            </summary>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.Schedule.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            Renders the specified writer.
+            </summary>
+            <param name="writer">The writer.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.Schedule.Render">
+            <summary>
+            renders the schedule
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.Model">
+            <summary>
+            Gets or sets the schedule model.
+            </summary>
+            <value>
+            The schedule model.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.Views">
+            <summary>
+            Gets or sets the  Views.
+            </summary>
+            <value>
+            The Views.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.workWeek">
+            <summary>
+            Gets or sets the  WorkWeeks.
+            </summary>
+            <value>
+            The WorkWeek.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.CurrentView">
+            <summary>
+            Gets or sets the schedule Current View.
+            </summary>
+            <value>
+            The schedule currentview.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.Orientation">
+            <summary>
+            Gets or sets the schedule orientation.
+            </summary>
+            <value>
+            The schedule orientation.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.TimeMode">
+            <summary>
+            Gets or sets the schedule Time mode.
+            </summary>
+            <value>
+            The schedule Timemode.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.FirstDayOfWeek">
+            <summary>
+            Gets or sets the schedule First Day Of Week.
+            </summary>
+            <value>
+            The schedule FirstDayOfWeek.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.TimeZone">
+            <summary>
+            Gets or sets the schedule time zone.
+            </summary>
+            <value>
+            The schedule TimeZone.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.TimeZoneInfo">
+            <summary>
+            Gets or sets the schedule Time Zone Info.
+            </summary>
+            <value>
+            The schedule TimeZoneInfo.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.StartHour">
+            <summary>
+            Gets or sets the schedule Start Hour.
+            </summary>
+            <value>
+            The schedule StartHour.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.EndHour">
+            <summary>
+            Gets or sets the schedule End Hour.
+            </summary>
+            <value>
+            The schedule EndHour.        
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.HighlightBusinessHours">
+            <summary>
+            Gets or sets the schedule Highlight Business Hours.
+            </summary>
+            <value>
+            The schedule HighlightBusinessHours.        
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.IsDST">
+            <summary>
+            Gets or sets the schedule daylight Saving Time.
+            </summary>
+            <value>
+            The schedule isDST.        
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.ShowQuickWindow">
+            <summary>
+            Gets or sets the schedule Show Quick Window.
+            </summary>
+            <value>
+            The schedule ShowQuickWindow.        
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.ShowLocationField">
+            <summary>
+            Gets or sets the schedule Show Location field value.
+            </summary>
+            <value>
+            The schedule ShowLocationField.        
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.EnableLoadOnDemand">
+            <summary>
+            Gets or sets the schedule Enable Load On Demand.
+            </summary>
+            <value>
+            The schedule EnableLoadOnDemand.        
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.BusinessStartHour">
+            <summary>
+            Gets or sets the schedule Business Start Hour.
+            </summary>
+            <value>
+            The schedule BusinessStartHour.        
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.BusinessEndHour">
+            <summary>
+            Gets or sets the schedule Business EndHour.
+            </summary>
+            <value>
+            The schedule BusinessEndHour.        
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.Width">
+            <summary>
+            Gets or sets the schedule Width.
+            </summary>
+            <value>
+            The schedule Width.   
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.Height">
+            <summary>
+            Gets or sets the schedule Height.
+            </summary>
+            <value>
+            The schedule Height.       
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.CellWidth">
+            <summary>
+            Gets or sets the schedule Cell Width.
+            </summary>
+            <value>
+            The schedule CellWidth.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.CellHeight">
+            <summary>
+            Gets or sets the schedule Cell Height.
+            </summary>
+            <value>
+            The schedule CellHeight.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.DateFormat">
+            <summary>
+            Gets or sets the schedule Date Format.
+            </summary>
+            <value>
+            The schedule DateFormat.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.CurrentDate">
+            <summary>
+            Gets or sets the schedule Current Date.
+            </summary>
+            <value>
+            The schedule CurrentDate.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.MinDate">
+            <summary>
+            Gets or sets the schedule Min Date.
+            </summary>
+            <value>
+            The schedule MinDate.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.MaxDate">
+            <summary>
+            Gets or sets the schedule Max Date.
+            </summary>
+            <value>
+            The schedule MaxDate.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.CssClass">
+            <summary>
+            Gets or sets the schedule Css Class.
+            </summary>
+            <value>
+            The schedule CssClass.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.Locale">
+            <summary>
+            Gets or sets the schedule Locale.
+            </summary>
+            <value>
+            The schedule Locale.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.EnableResize">
+            <summary>
+            Gets or sets the schedule Enable Resize.
+            </summary>
+            <value>
+            The schedule EnableResize.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.ReadOnly">
+            <summary>
+            Gets or sets the schedule Read Only.
+            </summary>
+            <value>
+            The schedule ReadOnly.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.IsResponsive">
+            <summary>
+            Gets or sets the schedule Is Responsive.
+            </summary>
+            <value>
+            The schedule IsResponsive.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.EnableRecurrenceValidation">
+            <summary>
+            Gets or sets the schedule Enable Recurrence Validation.
+            </summary>
+            <value>
+            The schedule EnableRecurrenceValidation.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.ShowAllDayRow">
+            <summary>
+            Gets or sets the schedule Show AllDay Row.
+            </summary>
+            <value>
+            The schedule ShowAllDayRow.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.ShowTimeScale">
+            <summary>
+            Gets or sets the schedule Show Time Scale.
+            </summary>
+            <value>
+            The schedule ShowTimeScale.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.ShowHeaderBar">
+            <summary>
+            Gets or sets the schedule Show Header Bar.
+            </summary>
+            <value>
+            The schedule ShowHeaderBar.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.EnableRTL">
+            <summary>
+            Gets or sets the schedule Enable RTL.
+            </summary>
+            <value>
+            The schedule EnableRTL.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.AppointmentTemplateId">
+            <summary>
+            Gets or sets the schedule Appointment TemplateId.
+            </summary>
+            <value>
+            The schedule AppointmentTemplateId.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.ResourceHeaderTemplateId">
+            <summary>
+            Gets or sets the schedule Resource Header TemplateId.
+            </summary>
+            <value>
+            The schedule ResourceHeaderTemplateId.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.AllowDragDrop">
+            <summary>
+            Gets or sets the schedule Allow Drag and Drop.
+            </summary>
+            <value>
+            The schedule AllowDragDrop.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.EnableAppointmentResize">
+            <summary>
+            Gets or sets the schedule Enable Appointment Resize.
+            </summary>
+            <value>
+            The schedule EnableAppointmentResize.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.EnableAppointmentNavigation">
+            <summary>
+            Gets or sets the schedule EnableAppointment Navigation.
+            </summary>
+            <value>
+            The schedule EnableAppointmentNavigation.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.ShowCurrentTimeIndicator">
+            <summary>
+            Gets or sets the schedule Show Current Time Indicator.
+            </summary>
+            <value>
+            The schedule ShowCurrentTimeIndicator.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.ContextMenuSettings">
+            <summary>
+            Gets or sets the schedule Context Menu Settings.
+            </summary>
+            <value>
+            The schedule ContextMenuSettings.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.TimeZoneCollection">
+            <summary>
+            Gets or sets the schedule Time zone Collection.
+            </summary>
+            <value>
+            The schedule TimezoneCollection.
+            </value>
+            
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.CategorizeSettings">
+            <summary>
+            Gets or sets the schedule Categorize Settings.
+            </summary>
+            <value>
+            The schedule CategorizeSettings.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.PrioritySettings">
+            <summary>
+            Gets or sets the schedule Priority Settings.
+            </summary>
+            <value>
+            The schedule PrioritySettings.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.ToolTipSettings">
+            <summary>
+            Gets or sets the schedule Tooltip Settings.
+            </summary>
+            <value>
+            The schedule Tooltip Settings.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.WorkHours">
+            <summary>
+            Gets or sets the schedule work hour settings.
+            </summary>
+            <value>
+            The schedule work hours Settings.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.AgendaViewSettings">
+            <summary>
+            Gets or sets the schedule Agenda View Settings.
+            </summary>
+            <value>
+            The schedule AgendaSettings.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.RenderDates">
+            <summary>
+            Gets or sets the schedule Render Dates.
+            </summary>
+            <value>
+            The schedule RenderDates.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.ReminderSettings">
+            <summary>
+            Gets or sets the schedule Reminder Settings.
+            </summary>
+            <value>
+            The schedule ReminderSettings.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.AllowKeyboardNavigation">
+            <summary>
+            Gets or sets the schedule Allow Keyboard Navigation.
+            </summary>
+            <value>
+            The schedule AllowKeyboardNavigation.
+            </value>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:Syncfusion.JavaScript.Web.Schedule.TimeScale" -->
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.AppointmentSettings">
+            <summary>
+            Gets or sets the schedule Appointment Settings.
+            </summary>
+            <value>
+            The schedule AppointmentSettings.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.Group">
+            <summary>
+            Gets or sets the schedule Group.
+            </summary>
+            <value>
+            The schedule Group.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.Resources">
+            <summary>
+            Gets or sets the schedule Resources.
+            </summary>
+            <value>
+            The schedule Resources.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.Create">
+            <summary>
+            Gets or sets the schedule Create.
+            </summary>
+            <value>
+            The schedule Create.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.Destroy">
+            <summary>
+            Gets or sets the schedule Destroy.
+            </summary>
+            <value>
+            The Destroy.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.CellClick">
+            <summary>
+            Gets or sets the Cell Click <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs after the cell is clicked.
+            </summary>
+            <value>
+            The schedule CellClick.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.CellHover">
+            <summary>
+            Gets or sets the Cell Hover <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs after the cell is hovered.
+            </summary>
+            <value>
+            The schedule Cell Hover.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.AppointmentClick">
+            <summary>
+            Gets or sets the  Appointment Click <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs after the appointment is clicked.
+            </summary>
+            <value>
+            The schedule AppointmentClick.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.AppointmentHover">
+            <summary>
+            Gets or sets the  Appointment Hover <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs after the appointment is hovered.
+            </summary>
+            <value>
+            The schedule AppointmentHover.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.CellDoubleClick">
+            <summary>
+            Gets or sets the Cell Double Click <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs after cell is clicked twice.
+            </summary>
+            <value>
+            The schedule CellDoubleClick.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.AppointmentWindowOpen">
+            <summary>
+            Gets or sets the  Appointment Window Open <see cref="T:Syncfusion.JavaScript.Web.Schedule"/>occurs appointment window is opened.
+            </summary>
+            <value>
+            The schedule AppointmentWindowOpen.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.AppointmentSaved">
+            <summary>
+            Gets or sets the  Appointment Saved <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs after the appointment saved.
+            </summary>
+            <value>
+            The schedule AppointmentSaved.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.AppointmentEdited">
+            <summary>
+            Gets or sets the  Appointment Edited <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs after the appointment is edited.
+            </summary>
+            <value>
+            The schedule AppointmentEdited.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.AppointmentDeleted">
+            <summary>
+            Gets or sets the  Appointment Deleted <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs after the appointment is deleted.
+            </summary>
+            <value>
+            The schedule AppointmentDeleted.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.Navigation">
+            <summary>
+            Gets or sets the  Navigation <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs after the schedule view or date is navigated.
+            </summary>
+            <value>
+            The schedule Navigation.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.DragStart">
+            <summary>
+            Gets or sets the Appointment Drag Start <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs the appointment dragging begins.
+            </summary>
+            <value>
+            The Appointment DragStart.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.Drag">
+            <summary>
+            Gets or sets the Appointment Drag <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs the appointment is dragged over the work cells.
+            </summary>
+            <value>
+            The Appointment Drag.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.DragStop">
+            <summary>
+            Gets or sets the Appointment DragStop <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs the appointment is dropped.
+            </summary>
+            <value>
+            The Appointment DragStop.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.ResizeStart">
+            <summary>
+            Gets or sets the Appointment Resize Start <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs the appointment resizing begins.
+            </summary>
+            <value>
+            The Appointment ResizeStart.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.Resize">
+            <summary>
+            Gets or sets the Appointment Resize <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs the appointment is resizing.
+            </summary>
+            <value>
+            The Appointment Resize.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.ResizeStop">
+            <summary>
+            Gets or sets the Appointment Resize Stop <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs the appointment resizing is stopped.
+            </summary>
+            <value>
+            The Appointment ResizeStop.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.MenuItemClick">
+            <summary>
+            Gets or sets the  MenuItem Click <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs after the menu item is clicked.
+            </summary>
+            <value>
+            The schedule MenuItemClick.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.BeforeContextMenuOpen">
+            <summary>
+            Gets or sets the  Before Context MenuOpen <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs the context menu open up.
+            </summary>
+            <value>
+            The schedule BeforeContextMenuOpen.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.ActionBegin">
+            <summary>
+            Gets or sets the  Action Begin <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs before the action begin.
+            </summary>
+            <value>
+            The schedule ActionBegin.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.ActionComplete">
+            <summary>
+            Gets or sets the  ActionComplete <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs after the action complete.
+            </summary>
+            <value>
+            The schedule ActionComplete.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.Reminder">
+            <summary>
+            Gets or sets the  Reminder <see cref="T:Syncfusion.JavaScript.Web.Schedule"/> occurs the reminder is raised for an appointment.
+            </summary>
+            <value>
+            The schedule Reminder.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Schedule.ServerEvents">
+            <summary>
+            Gets the ServerEvents.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.Schedule.ScheduleEventHandler">
+            <summary>
+            Schedule specified the Event Handler.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.ScheduleCreator">
+            <summary>
+            Class for schedule control
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.ScheduleCreator.#ctor(Syncfusion.JavaScript.Web.Schedule)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Web.ScheduleCreator"/> class for schedule model.
+            </summary>
+            <param name="scheduleModel">The scheduleModel.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.ScheduleCreator.CreateContainer(System.String)">
+            <summary>
+            Creates the container.
+            </summary>
+            <param name="controlId">The control identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ScheduleCreator.TagName">
+            <summary>
+            Gets the name of the tag.
+            </summary>
+            <value>
+            The TagName.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ScheduleCreator.PluginName">
+            <summary>
+            Gets the name of the plugin.
+            </summary>
+            <value>
+            The PluginName.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ScheduleCreator.Model">
+            <summary>
+            Gets the model.
+            </summary>
+            <value>
+            The Model.
+            </value>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.ScheduleDesigner">
+            <summary>
+            Class for schedule designer.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.ScheduleDesigner.GetControlString">
+            <summary>
+            Gets the control string
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.ScheduleDesigner.BeforeUpdateHtml">
+            <summary>
+            Befores Update Html
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.ScheduleDesigner.AfterUpdateHtml">
+            <summary>
+             Afters Update Html
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ScheduleDesigner.Schedule">
+            <summary>
+            Gets the schedule.
+            </summary>
+            <value>
+            The schedule.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ScheduleDesigner.ActionLists">
+            <summary>
+            Gets or sets the schedule Action list.
+            </summary>
+            <value>
+            The ActionLists.
+            </value>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.ScheduleDesigner.ScheduleDesignerActionList">
+            <summary>
+            Internal Class for schedule designer.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.ScheduleDesigner.ScheduleDesignerActionList.#ctor(Syncfusion.JavaScript.Web.ScheduleDesigner)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Web.ScheduleDesigner.ScheduleDesignerActionList"/> class to indicates the designer of schedule.
+            </summary> 
+            <param name="designer">The designer.</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.ScheduleDesigner.ScheduleDesignerActionList.SetProperty(System.String,System.Object,System.Object)">
+            <summary>
+             Set property of the Control.
+            </summary>
+            <param name="propertyName">The propertyName</param>
+            <param name="component">The Component</param>
+            <param name="value">The value</param>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.ScheduleDesigner.ScheduleDesignerActionList.GetSortedActionItems">
+            <summary>
+            Creates the designer action item collections.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ScheduleDesigner.ScheduleDesignerActionList.CurrentView">
+            <summary>
+            Gets or sets the schedule Curent View.
+            </summary>
+            <value>
+            The CurrentView.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ScheduleDesigner.ScheduleDesignerActionList.TimeMode">
+            <summary>
+            Gets or sets the schedule Time mode.
+            </summary>
+            <value>
+            The TimeMode.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ScheduleDesigner.ScheduleDesignerActionList.HighlightBusinessHours">
+            <summary>
+            Gets or sets the schedule highlight business hours.
+            </summary>
+            <value>
+            The HighlightBusinessHours.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ScheduleDesigner.ScheduleDesignerActionList.EnableRTL">
+            <summary>
+            Gets or sets the schedule enable rtl.
+            </summary>
+            <value>
+            The EnableRTL.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ScheduleDesigner.ScheduleDesignerActionList.AllowDragDrop">
+            <summary>
+            Gets or sets the schedule allow drag and drop.
+            </summary>
+            <value>
+            The AllowDragDrop.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ScheduleDesigner.ScheduleDesignerActionList.ShowCurrentTimeIndicator">
+            <summary>
+            Gets or sets the schedule show current time indicator.
+            </summary>
+            <value>
+            The ShowCurrentTimeIndicator.
+            </value>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ScheduleDesigner.ScheduleDesignerActionList.EnableAppointmentNavigation">
+            <summary>
+            Gets or sets the schedule enable appointment navigation.
+            </summary>
+            <value>
+            The EnableAppointmentNavigation.
+            </value>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.ScheduleEventArgs">
+            <summary>
+            Class for schedule event argument.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.JavaScript.Web.ScheduleEventArgs.#ctor(System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.JavaScript.Web.ScheduleEventArgs"/> class.
+            </summary>
+            <param name="args">The args.</param>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.ScheduleEventArgs.EventType">
+            <summary>
+            Gets and sets the name of the Event Type.
+            </summary>
+            <value>
+            The EventType.
+            </value>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.SplitButton">
+            <summary>
+            Represents the SplitButton UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.Tab">
+            <summary>
+            Represents the Tab UI element.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.Tile">
+            <summary>
+            Represents the Tile UI element.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.JavaScript.Web.Tile.Text">
+            <summary>
+            Specifies text instead of number for tile badge.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.TileDesigner">
+            <summary>
+            Gets a collection of DatePicker values
+            </summary>
+        </member>
+        <member name="T:Syncfusion.JavaScript.Web.TimePickerDesigner">
+            <summary>
+            Gets a collection of TimePicker values
+            </summary>
+        </member>
+    </members>
+</doc>
